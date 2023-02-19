@@ -6,7 +6,6 @@ import { IProject, Service, Skill } from "./type";
 
 import { BsCircleFill } from "react-icons/bs";
 
-
 export const services: Service[] = [
   {
     Icon: RiComputerLine,
@@ -102,103 +101,68 @@ export const tools: Skill[] = [
 ];
 
 export const projects: IProject[] = [
-  { 
-    name: "COVID Tracker",
-    description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/Images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
+  {
+    name: "REACT MUI Dashboard",
+    description: "This app shows a statistical view about Dashboard",
+    image_path: "/Images/dashbord.png",
+    deployed_url:
+      "https://github.com/shajibhasan7325/React-Mui-Dashbord-Pwa.git",
+    github_url: "https://github.com/shajibhasan7325/React-Mui-Dashbord-Pwa.git",
     category: ["react"],
     key_techs: ["React", "Chart.js", "Material UI"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/Images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    name: "Netflix Clone",
+    image_path: "/Images/Netflix.png",
+    deployed_url: "https://github.com/shajibhasan7325/Netflix-clone.git",
+    github_url: "https://github.com/shajibhasan7325/Netflix-clone.git",
+    category: ["next"],
     description:
       "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+    key_techs: ["React", "Framer Motion"],
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/Images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
-    description:
-      "Social Media app for developers who can share project,create posts,etc...",
-    key_techs: [
-      "React",
-      "Redux",
-      "Node",
-      "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
-    ],
+    name: "Bank Website ",
+    image_path: "/Images/bank.png",
+    deployed_url: "https://bank-react-typescript.netlify.app/",
+    github_url:
+      "https://github.com/shajibhasan7325/Bank-website-React-JS-with-Tailwind-typescript.git",
+    category: ["next", "react"],
+    description: "Bank-website-React-JS-with-Tailwind-typescript",
+    key_techs: ["React", "Redux", "Tailwind", "typescript"],
   },
 
   {
-    name: "Realtime Chat App",
-    image_path: "/Images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
+    name: "Football match score",
+    image_path: "/Images/football.png",
+    deployed_url:
+      "https://github.com/shajibhasan7325/Express.js-Data-featch-and-filter.git",
+    github_url:
+      "https://github.com/shajibhasan7325/Express.js-Data-featch-and-filter.git",
     category: ["node", "react"],
-    description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
+    description: "Football match score",
     key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
   },
 
   {
-    name: "Tweeter Clone",
-    image_path: "/Images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
+    name: "real state website",
+    image_path: "/Images/compyhouse.png",
+    deployed_url: "https://javascript-comfy-house.netlify.app/",
+    github_url: "https://github.com/shajibhasan7325",
+    category: ["javascript"],
+    description: "real state website",
+    key_techs: ["HTML", "CSS", "Javascript"],
   },
 
   {
-    name: "Color Classification using tf.js",
-    image_path: "/Images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
+    name: "Shopping card",
+    image_path: "/Images/javascript.png",
+    deployed_url: "https://javascript-shopping-cart-websit.netlify.app/",
+    github_url: "https://github.com/shajibhasan7325",
+    category: ["javascript"],
     description:
       "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
     key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-  },
-  {
-    name: "YouTube using YouTube ",
-    image_path: "/Images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
-    key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
-    ],
-  },
-  {
-    name: "Football App",
-    image_path: "/Images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
-    category: ["react"],
-    description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
   },
 ];

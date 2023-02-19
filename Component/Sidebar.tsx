@@ -13,13 +13,13 @@ function Sidebar() {
   return (
     <div>
       <Image
-        src={'/Images/a.jpeg'}
+        src={"/Images/a.jpeg"}
         className="mx-auto rounded-full "
         alt="img"
         width="128"
-      height="128"
-      layout="responsive"
-      objectFit="cover"
+        height="128"
+        layout="responsive"
+        objectFit="cover"
       />
 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan ">
@@ -29,7 +29,7 @@ function Sidebar() {
         Web Developer
       </p>
       <a
-        href=""
+        href="/Images/resume.pdf"
         className="flex items-center justify-center px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 "
         download="name"
       >
@@ -38,10 +38,10 @@ function Sidebar() {
 
       {/* social icon */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
-        <a href=" ">
+        <a href="https://github.com/shajibhasan7325">
           <AiFillGithub className="w-8 h-8 cursor-pointer " />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/shajib-hasan-9439a31ab/">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
         <a href="">
@@ -59,7 +59,7 @@ function Sidebar() {
           <span>Khulna Bangladesh</span>
         </div>
         <p className="my-2 ">shajibhasan7325@gamil.com</p>
-        <p className="my-2 ">+8801951-792382</p>
+        <p className="my-2 ">+8801835-445896</p>
       </div>
       {/* Button */}
       <button
